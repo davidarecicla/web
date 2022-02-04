@@ -176,6 +176,26 @@ section a:hover {
 
 }
 
+/* pagos */
+.pagos{
+    /* border: 1px solid red; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.pagos h3{
+    text-align: center;
+}
+
+.pagos .bancos-img{
+    max-width: 400px;
+}
+.bancos-img img{
+    width: 100%;
+}
 
 /* footer */
 footer{
