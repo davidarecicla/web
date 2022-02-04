@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(50, 50, 51);
+}
+
+header {
+    /* border: 1px solid red; */
+    background: #f2f2f2;
+}
+
+nav {
+    position: fixed;
+    background-color:#f2f2f2 ;
+}
+header nav {
+    /* border: 1px solid green; */
+    display: flex;
+    padding-left: 40px;
+
+}
+
+header nav a {
+
+    text-decoration: none;
+    padding: 25px;
+    font-weight: 500;
+    transition: all 1s;
+}
+
+header nav a:hover {
+    background: #00AD7C;
+    color: #f2f2f2;
+}
+
+/* SECTION */
+section {
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: auto;
+    overflow: hidden;
+}
+
+section a {
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: all .5s;
+}
+
+section a:hover {
+    background: #0792bd;
+    color: #f2f2f2;
+}
+
+.section-encabezado{
+    width: 100%;
+    background:#f2f2f2;
+    /* margin-bottom: 28px; */
+    /* border: 1px solid red; */
+}
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    
+}
+
+.encabezado-img {
+    max-width: 150px;
+    /* border: 1px solid green; */
+    margin: 30px 0 20px;
+}
+
+.encabezado-img img {
+    width: 100%;
+}
+
+.encabezado h2 {
+    color: #333232;
+
+}
+
+/* container cards -  */
+.container-categorias {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*  */
+.producto-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid red;
+}
+
+.categoria-img{
+    max-width: 80px;
+}
+.categoria-img>img{
+    width: 100%;
+}
+
+/*  */
+
+.tapete {
+    /* border: 1px solid red; */
+    max-width: 320px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .25);
+    margin:25px 15px; 
+}
+
+.tapete-imagen {
+    /* border: 1px solid green; */
+    width: 100%;
+}
+
+.tapete-imagen img {
+    width: 100%;
+}
+
+.precios-descrip{
+    padding: 15px;
+}
+.precios-descrip .precio {
+    text-align: center;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.precios-descrip .descripcion-prod{
+    text-align: center;
+    font-size: 17px;
+    
+}
+
+.boton-descargar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px 0px 12px;
+}
+
+
+.bases {
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 30px;
+
+}
+
+.bases a {
+    /* border: 1px solid green; */
+    display: inline-block;
+    padding: 18px;
+    background-color: #00AD7C;
+    color: #f2f2f2;
+    width: 55%;
+    border-radius: 40px;
+    text-align: center;
+
+}
+
+
+/* footer */
+footer{
+    /* border: 1px solid red; */
+    width: 100%;
+    background: #00AD7C;
+    padding: 25px;
+}
+
+footer>h3{
+    color: #f2f2f2;
+    font-weight: 200;
+    font-size: 1em;
+    margin-right: 10px;
+    grid-column: 5/8;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
